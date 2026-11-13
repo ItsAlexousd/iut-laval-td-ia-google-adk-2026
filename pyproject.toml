@@ -1,0 +1,19 @@
+[project]
+name = "td-ia-adk"
+version = "0.1.0"
+description = ""
+authors = [{ name = "<Votre Nom>", email = "votre.email@univ-lemans.fr" }]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+  "python-dotenv (>=1.2.1,<2.0.0)",
+  "google-adk (>=2.14.1,<3.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
